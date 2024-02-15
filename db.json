@@ -1,0 +1,68 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Joaquim",
+      "idade": 30,
+      "email": "Joaquim@me.com",
+      "cep": 12345678,
+      "profissao": "Programador",
+      "salario": 5000,
+      "senha": 123,
+      "carteiras": [
+        {
+        "id": 1
+      },
+      {
+        "id": 2
+      }]
+    },
+    {
+      "id": 2,
+      "nome": "pedro",
+      "idade": 30,
+      "email": "pedro@me.com",
+      "cep": 12345678,
+      "profissao": "Programador",
+      "salario": 5000,
+      "senha": 123,
+      "carteiras": [
+        {
+        "id": 3
+      },
+      {
+        "id": 4
+      }]
+    }
+  ],
+  "carteiras":[
+    {
+      "id": 1,
+      "renda_mensal_esperada": 1920,
+      "saldo": 1030,
+      "id_criador": 1,
+      "id_participantes": [1]
+    },
+    {
+      "id": 2,
+      "renda_mensal_esperada": 1200,
+      "saldo": 1030,
+      "id_criador": 1,
+      "id_participantes": [1]
+    },
+    {
+      "id": 3,
+      "renda_mensal_esperada": 1200,
+      "saldo": 1030,
+      "id_criador": 2,
+      "id_participantes": [2]
+    },
+    {
+      "id": 4,
+      "renda_mensal_esperada": 1200,
+      "saldo": 1030,
+      "id_criador": 2,
+      "id_participantes": [2]
+    }
+  ]
+}
